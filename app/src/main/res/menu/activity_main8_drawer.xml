@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item
+        android:id="@+id/it81"
+
+        android:icon="@drawable/home"
+        android:title="الصفحه الرئيسية" />
+    <item
+        android:id="@+id/it84"
+        android:icon="@drawable/ic_menu_manage"
+        android:title="حالات" />
+    <item
+        android:id="@+id/it83"
+
+        android:icon="@drawable/regster"
+        android:title="انشاء حساب كمتبرع" />
+    <item
+        android:id="@+id/it86"
+        android:icon="@drawable/regster"
+        android:title="انشاء حساب كجمعيه" />
+    <item
+        android:id="@+id/it82"
+        android:icon="@drawable/none"
+        android:title="تسجيل الدخول  " />
+
+
+
+    <item
+        android:id="@+id/it85"
+        android:icon="@drawable/none"
+        android:title="من نحن" />
+    </group>
+
+</menu>

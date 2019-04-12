@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res_auto"
+    xmlns:app1="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/home"
+
+        android:icon="@drawable/home"
+        android:enabled="true"
+        android:title="الصفحه الرئيسية"
+        app1:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/chat"
+
+        android:icon="@drawable/ic_chat"
+        android:enabled="true"
+        android:title="تواصل معنا"
+        app1:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/add"
+
+        android:icon="@drawable/regster"
+        android:enabled="true"
+        android:title="المتابعين"
+        app1:showAsAction="ifRoom"/>
+
+</menu>

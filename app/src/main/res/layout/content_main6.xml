@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.dell.tbr3.Main6Activity"
+    tools:showIn="@layout/app_bar_main6"
+    android:weightSum="1">
+
+    <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_margin="10dp"
+        app:cardBackgroundColor="#ffffff"
+        app:cardCornerRadius="8dp"
+
+        app:cardElevation="3dp"
+        app:contentPadding="4dp"
+        android:foreground="?selectableItemBackground"
+        android:clickable="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:id="@+id/item_image"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:src="@drawable/none"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/t2"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="300dp"
+
+                android:textSize="15sp"
+                android:textColor="#696969"
+
+                android:layout_alignParentTop="true"/>
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="100dp"
+                android:hint="اكتب شيئا....."
+                android:inputType="textMultiLine" />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+
+
+            >
+            <Button
+
+                android:layout_width="40dp"
+                android:layout_height="20dp"
+                android:background="#659FA0"
+                android:layout_gravity="bottom"
+
+                android:layout_toLeftOf="@+id/img2"
+
+
+
+                android:text="نشر"
+                android:textColor="#ffffff"
+                android:textSize="10sp"/>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="170dp">
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycle2_view">
+
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>
+
+
+
+
